@@ -120,7 +120,7 @@
                             android:layout_marginTop="20dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
-                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
+                            android:text="Krrate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -614,11 +614,7 @@
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-
             </GridLayout>
-
         </androidx.constraintlayout.widget.ConstraintLayout>
-
     </ScrollView>
-
 </LinearLayout>
