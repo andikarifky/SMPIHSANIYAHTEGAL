@@ -16,35 +16,6 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="188dp">
-
-                <ViewFlipper
-                    android:id="@+id/viewFlipper"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/headerihs"/>
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/headerihs2"/>
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/headergaleri1"/>
-                </ViewFlipper>
-            </RelativeLayout>
-
             <GridLayout
                 android:id="@+id/mainGrid"
                 android:layout_width="match_parent"
@@ -62,7 +33,7 @@
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_marginLeft="12dp"
-                    android:layout_marginTop="3dp"
+                    android:layout_marginTop="12dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
                     app:cardCornerRadius="8dp"
@@ -145,7 +116,7 @@
                             android:layout_marginLeft="50dp"
                             android:textStyle="bold"
                             android:textSize="20dp"
-                            android:text="ALBUM KEGIATAN HADROH">
+                            android:text="KEGIATAN HADROH">
 
                         </TextView>
 
@@ -243,7 +214,7 @@
                             android:layout_marginLeft="50dp"
                             android:textStyle="bold"
                             android:textSize="20dp"
-                            android:text="ALBUM KEGIATAN HUT PGRI">
+                            android:text="KEGIATAN HUT PGRI">
 
                         </TextView>
                     </LinearLayout>
@@ -299,6 +270,53 @@
 
                 </androidx.cardview.widget.CardView>
                 <!--                            penutup menu 1-->
+                <androidx.cardview.widget.CardView
+                    android:onClick="albumpelantikanosis"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="#FF8C"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/osis">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="50dp"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:text="KEGIATAN PELANTIKAN OSIS">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
 
             </GridLayout>
         </LinearLayout>

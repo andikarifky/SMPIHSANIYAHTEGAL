@@ -76,9 +76,10 @@
                                     <ImageView
                                         android:layout_width="300dp"
                                         android:layout_height="200dp"
-                                        android:layout_marginLeft="9dp"
-                                        android:layout_marginTop="70dp"
-                                        android:src="@drawable/baskett"/>
+                                        android:layout_gravity="center"
+                                        android:layout_marginBottom="12dp"
+                                        android:layout_marginTop="80dp"
+                                        android:src="@drawable/baskt2"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -97,15 +98,164 @@
                                     android:layout_height="match_parent"/>
                             </LinearLayout>
 
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_marginLeft="127dp"
+                        android:layout_marginTop="20dp"
+                        android:text="PRESTASI"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="75dp"
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="9dp"
-                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="5dp"
                             android:textColor="#000"
-                            android:text="Bola basket adalah olahraga bola berkelompok yang terdiri atas dua tim beranggotakan masing-masing lima orang yang saling bertanding mencetak poin dengan memasukkan bola ke dalam keranjang lawan. Bola basket dapat di lapangan terbuka, walaupun pertandingan profesional pada umumnya dilakukan di ruang tertutup."/>
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Juara 1 Basket Putri POPDA Th. 2019"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Juara 2 Basket Putra POPDA Th. 2019"/>
 
                     </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="21dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_marginLeft="119dp"
+                        android:layout_marginTop="20dp"
+                        android:text="PENGERTIAN"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="75dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="21dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Bola basket adalah olahraga bola berkelompok yang terdiri atas dua tim beranggotakan masing-masing lima orang yang saling bertanding mencetak poin dengan memasukkan bola ke dalam keranjang lawan. Bola basket dapat di lapangan terbuka, walaupun pertandingan profesional pada umumnya dilakukan di ruang tertutup."/>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="21dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_marginLeft="119dp"
+                        android:layout_marginTop="20dp"
+                        android:text="SEJARAH"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="75dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="21dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Permainan bola basket diciptakan oleh James A. Naismith, yaitu seorang guru sekolah olahraga di Massachusetts, Amerika Serikat yang bergabung dalam YMCA (Young Men's Christian Association).Ketika itu Naismith berusaha mencari cara untuk menghilangkan kebosanan yang dialami oleh murid-muridnya di saat musim dingin. Mereka bosan dengan senam yang gerakannya kaku, sehingga berpengaruh kepada jumlah keanggotaan dan pengunjung sekolah semakin merosot.
+Sementara kebutuhan akan tetap melakukan aktivitas olahraga dalam ruang yang mampu menarik minat orang banyak kian mendesak.
+Naismith pun mencoba menyusun suatu kegiatan olahraga yang baru dengan menyesuaikan kriteria dan permasalahan yang ada sebagai tugas dari Dr. Luther Gullick, ia mencoba membuat gagasan tentang aktivitas olahraga yang dapat dimainkan di ruang tertutup pada sore hari.
+Awalnya ia mencoba mengubah olahraga yang telah ramai dimainkan seperti football, baseball, dan sebagainya. Namun tidak ada yang cocok dengan kriteria yang ia inginkan.
+Akhirnya ia menyimpulkan bahwa permainan itu menggunakan bola besar, bermain dengan tangan, dan mengganti gawang sebagai sasaran.
+Naismith mencoba memainkan bola dengan tangan dan mengganti gawang dengan keranjang buah pear karena hanya ada itu pada saat itu. Sehingga yang dijadikan sasaran tembakan adalah keranjang atau yang dikenal dengan ring basket. Itulah sejarah Naismith memberi nama bola basket.
+
+"/>
+
+                    </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
             </GridLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>

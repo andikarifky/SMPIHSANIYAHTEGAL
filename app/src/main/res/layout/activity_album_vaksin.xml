@@ -85,38 +85,6 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="12dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginTop="5dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:layout_marginTop="5dp"
-                    android:textColor="#000"
-                    android:textSize="10sp"
-                    android:textStyle="bold"
-                    android:text="ALBUM KEGIATAN VAKSINISASI"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:textAlignment="center"
-                    android:layout_marginTop="20dp"
-                    android:textColor="#000"
-                    android:textSize="10sp"
-                    android:text="KEGIATAN VAKSINASI SMP IHSANIYAH TEGALPada Selasa (31/9), SMP Ihsaniyah Tegal menyelenggarakan kegiatan vaksinasi kepada para siswa... Kegiatan tersebut dilakukan dalam upaya pencegahan penyebaran covid-19 saat pembelajaran tatap muka (PTM) dimulai...PTM sendiri rencananya akan dilaksanakan pada Senin, 6 September 2021... Penyelenggaraan PTM sudah mendapat restu dari Dinas Pendidikan Kota Tegal...Jadi buat kalian yg merindukan sekolah, bersiaplah rindu kalian akan segera terobati."/>
-
-            </androidx.cardview.widget.CardView>
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

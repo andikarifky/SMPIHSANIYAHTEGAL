@@ -49,39 +49,6 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="12dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="5dp"
-                    android:text="Kegiatan Kemah Budaya"
-                    android:textColor="#000"
-                    android:textSize="10sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="5dp"
-                    android:text="Kenangan: Saat Pak Walikota dan Kepala Dinas Pendidikan Kota Tegal mencicipi kue dari Regu Pramuka kita dalam Kemah Budaya Kota Tegal 2019."
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="10sp" />
-
-            </androidx.cardview.widget.CardView>
-
         </LinearLayout>
     </LinearLayout>
 

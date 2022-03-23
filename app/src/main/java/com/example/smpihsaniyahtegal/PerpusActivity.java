@@ -17,7 +17,6 @@ public class PerpusActivity extends AppCompatActivity {
             R.drawable.headergaleri1,
             R.drawable.headerihs};
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

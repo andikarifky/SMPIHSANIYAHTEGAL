@@ -45,6 +45,599 @@
                         android:layout_marginLeft="12dp"
                         android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
+                        android:src="@drawable/logobasketballcourt"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="LAPANGAN BASKET"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="60dp"
+                                    android:src="@drawable/lapanganihs"/>
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/park"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="TEMPAT PARKIR"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="60dp"
+                                    android:src="@drawable/parkiran"/>
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/kantinlogo"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="KANTIN"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="60dp"
+                                    android:src="@drawable/kantin"/>
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/classroom"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="KELAS"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="60dp"
+                                    android:src="@drawable/kelasihs3"/>
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/greenhouseicon"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="GREEN HOUSE"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="60dp"
+                                    android:src="@drawable/greenhouse"/>
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/toilet1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="TOILET (MASIH DALAM TAHAP RENOVASI)"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="60dp"
+                                    android:src="@drawable/toilet"/>
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/volleyballplayer"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="LAPANGAN VOLLY"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="60dp"
+                                    android:src="@drawable/lapanganvoly"/>
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/guru1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="RUANG GURU"/>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="60dp"
+                                    android:src="@drawable/ruangguru"/>
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
                         android:src="@drawable/logomosque"/>
 
                     <TextView
@@ -55,18 +648,13 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="MASJID"/>
-
+                        android:text="MASJID (MASIH DALAM TAHAP RENOVASI)"/>
 
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
-
-                        <HorizontalScrollView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
@@ -84,7 +672,7 @@
                                         android:layout_height="200dp"
                                         android:layout_marginLeft="12dp"
                                         android:layout_marginTop="60dp"
-                                        android:src="@drawable/lapanganihs"/>
+                                        android:src="@drawable/masjidd"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -97,30 +685,12 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
 
-                                    <ImageView
-                                        android:layout_width="300dp"
-                                        android:layout_height="200dp"
-                                        android:layout_marginTop="60dp"
-                                        android:layout_marginRight="12dp"
-                                        android:src="@drawable/lapanganihs"/>
-
                                 </LinearLayout>
                                 <RelativeLayout
                                     android:layout_width="7dp"
                                     android:layout_height="match_parent"/>
 
                             </LinearLayout>
-
-                        </HorizontalScrollView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginRight="5dp"
-                            android:textColor="#000"
-                            android:text="Krrate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -155,16 +725,10 @@
                         android:textStyle="bold"
                         android:text="LAB. KOMPUTER"/>
 
-
-
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
-
-                        <HorizontalScrollView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
@@ -195,30 +759,13 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
 
-                                    <ImageView
-                                        android:layout_width="300dp"
-                                        android:layout_height="200dp"
-                                        android:layout_marginTop="60dp"
-                                        android:layout_marginRight="12dp"
-                                        android:src="@drawable/lapanganihs"/>
-
                                 </LinearLayout>
+
                                 <RelativeLayout
                                     android:layout_width="7dp"
                                     android:layout_height="match_parent"/>
 
                             </LinearLayout>
-
-                        </HorizontalScrollView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginRight="5dp"
-                            android:textColor="#000"
-                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -280,7 +827,7 @@
                                         android:layout_height="200dp"
                                         android:layout_marginLeft="12dp"
                                         android:layout_marginTop="60dp"
-                                        android:src="@drawable/lapanganihs"/>
+                                        android:src="@drawable/asrama"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -293,13 +840,6 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
 
-                                    <ImageView
-                                        android:layout_width="300dp"
-                                        android:layout_height="200dp"
-                                        android:layout_marginTop="60dp"
-                                        android:layout_marginRight="12dp"
-                                        android:src="@drawable/lapanganihs"/>
-
                                 </LinearLayout>
                                 <RelativeLayout
                                     android:layout_width="7dp"
@@ -308,113 +848,6 @@
                             </LinearLayout>
 
                         </HorizontalScrollView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginRight="5dp"
-                            android:textColor="#000"
-                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginRight="12dp"
-                    android:layout_marginBottom="12dp"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp">
-
-                    <ImageView
-                        android:layout_width="55dp"
-                        android:layout_height="55dp"
-                        android:layout_marginLeft="12dp"
-                        android:layout_marginRight="12dp"
-                        android:layout_marginTop="12dp"
-                        android:src="@drawable/logobasketballcourt"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
-                        android:layout_marginTop="20dp"
-                        android:textColor="#000"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:text="LAPANGAN BASKET"/>
-
-
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <HorizontalScrollView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
-                                android:orientation="horizontal">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_weight="1"
-                                    android:orientation="vertical">
-
-                                    <ImageView
-                                        android:layout_width="300dp"
-                                        android:layout_height="200dp"
-                                        android:layout_marginLeft="12dp"
-                                        android:layout_marginTop="60dp"
-                                        android:src="@drawable/lapanganihs"/>
-
-                                </LinearLayout>
-                                <RelativeLayout
-                                    android:layout_width="10dp"
-                                    android:layout_height="match_parent"/>
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_weight="1"
-                                    android:orientation="vertical">
-
-                                    <ImageView
-                                        android:layout_width="300dp"
-                                        android:layout_height="200dp"
-                                        android:layout_marginTop="60dp"
-                                        android:layout_marginRight="12dp"
-                                        android:src="@drawable/lapanganihs"/>
-
-                                </LinearLayout>
-                                <RelativeLayout
-                                    android:layout_width="7dp"
-                                    android:layout_height="match_parent"/>
-
-                            </LinearLayout>
-
-                        </HorizontalScrollView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginRight="5dp"
-                            android:textColor="#000"
-                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -449,16 +882,11 @@
                         android:textStyle="bold"
                         android:text="LAPANGAN FUTSAL"/>
 
-
-
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <HorizontalScrollView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
@@ -476,7 +904,7 @@
                                         android:layout_height="200dp"
                                         android:layout_marginLeft="12dp"
                                         android:layout_marginTop="60dp"
-                                        android:src="@drawable/lapanganihs"/>
+                                        android:src="@drawable/lapanganfutsal"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -489,12 +917,6 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
 
-                                    <ImageView
-                                        android:layout_width="300dp"
-                                        android:layout_height="200dp"
-                                        android:layout_marginTop="60dp"
-                                        android:layout_marginRight="12dp"
-                                        android:src="@drawable/lapanganihs"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -502,18 +924,6 @@
                                     android:layout_height="match_parent"/>
 
                             </LinearLayout>
-
-                        </HorizontalScrollView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginRight="5dp"
-                            android:textColor="#000"
-                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
-
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -554,9 +964,6 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <HorizontalScrollView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
@@ -587,30 +994,12 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
 
-                                    <ImageView
-                                        android:layout_width="300dp"
-                                        android:layout_height="200dp"
-                                        android:layout_marginTop="60dp"
-                                        android:layout_marginRight="12dp"
-                                        android:src="@drawable/lapanganihs"/>
-
                                 </LinearLayout>
                                 <RelativeLayout
                                     android:layout_width="7dp"
                                     android:layout_height="match_parent"/>
 
                             </LinearLayout>
-
-                        </HorizontalScrollView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginRight="5dp"
-                            android:textColor="#000"
-                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

@@ -76,8 +76,10 @@
                                 <ImageView
                                     android:layout_width="300dp"
                                     android:layout_height="200dp"
-                                    android:layout_marginLeft="12dp"
-                                    android:layout_marginTop="70dp"
+                                    android:layout_marginLeft="9dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginBottom="12dp"
+                                    android:layout_marginTop="80dp"
                                     android:src="@drawable/pramuka1"/>
 
                             </LinearLayout>
@@ -97,15 +99,101 @@
                                 android:layout_height="match_parent"/>
                         </LinearLayout>
 
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="21dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_marginLeft="119dp"
+                        android:layout_marginTop="20dp"
+                        android:text="PENGERTIAN"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="75dp"
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
-                            android:layout_marginRight="5dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="21dp"
                             android:textColor="#000"
-                            android:text="Pramuka adalah singkatan dari Praja Muda Karana yang memiliki arti “Rakyat muda yang suka berkarya”. Di Indonesia gerakan ini diperkenalkan secara resmi pada 14 Agustus 1961 oleh Presiden Pertama Indonesia, Ir Soekarno"/>
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Pramuka adalah nama organisasi kepanduan yang bertugas menyelenggarakan pendidikan di luar sekolah bagi anak-anak dan pemuda bangsa agar mereka memiliki ketangguhan, keberanian, memiliki kepribadian baik dan aktif dalam pembangunan di masyarakat.Kegiatan kepramukaan mengambil lokasi outdoor atau alam terbuka. Para peserta melakukan aktivitas yang sehat, menyenangkan, mendidik, dan terarah. Semua berdasarkan metode dan prinsip kepramukaan.
+Di dunia Pramuka, Anda akan menemukan beberapa kode kehormatan berdasarkan Anggaran Dasar Pramuka. Ini berisi satya atau janji serta darma atau ketentuan moral. Penggolongan kode kehormatan berlandaskan pada beberapa faktor, seperti kondisi jasmani, rohani, dan usia.
+"/>
 
                     </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="21dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_marginLeft="119dp"
+                        android:layout_marginTop="20dp"
+                        android:text="SEJARAH"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="75dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="21dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text=""/>
+
+                    </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
             </GridLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
