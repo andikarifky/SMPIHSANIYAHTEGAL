@@ -12,10 +12,8 @@ import com.smarteist.autoimageslider.SliderView;
 
 public class PerpusActivity extends AppCompatActivity {
     SliderView sliderView;
-    int[] images = {R.drawable.headerihs,
-            R.drawable.headerihs2,
-            R.drawable.headergaleri1,
-            R.drawable.headerihs};
+    int[] images = {R.drawable.prps,
+            R.drawable.prps1};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -58,45 +58,23 @@
                         android:text="PRAMUKA"/>
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:orientation="horizontal">
+                            android:orientation="vertical">
 
-                            <LinearLayout
+                            <ImageView
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:layout_height="200dp"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="12dp"
+                                android:layout_marginTop="80dp"
+                                android:src="@drawable/pramuka1"/>
 
-                                <ImageView
-                                    android:layout_width="300dp"
-                                    android:layout_height="200dp"
-                                    android:layout_marginLeft="9dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginBottom="12dp"
-                                    android:layout_marginTop="80dp"
-                                    android:src="@drawable/pramuka1"/>
-
-                            </LinearLayout>
-                            <RelativeLayout
-                                android:layout_width="10dp"
-                                android:layout_height="match_parent"/>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
-
-                            </LinearLayout>
-                            <RelativeLayout
-                                android:layout_width="7dp"
-                                android:layout_height="match_parent"/>
                         </LinearLayout>
 
                     </LinearLayout>
@@ -142,9 +120,13 @@
                             android:textColor="#000"
                             android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="Pramuka adalah nama organisasi kepanduan yang bertugas menyelenggarakan pendidikan di luar sekolah bagi anak-anak dan pemuda bangsa agar mereka memiliki ketangguhan, keberanian, memiliki kepribadian baik dan aktif dalam pembangunan di masyarakat.Kegiatan kepramukaan mengambil lokasi outdoor atau alam terbuka. Para peserta melakukan aktivitas yang sehat, menyenangkan, mendidik, dan terarah. Semua berdasarkan metode dan prinsip kepramukaan.
-Di dunia Pramuka, Anda akan menemukan beberapa kode kehormatan berdasarkan Anggaran Dasar Pramuka. Ini berisi satya atau janji serta darma atau ketentuan moral. Penggolongan kode kehormatan berlandaskan pada beberapa faktor, seperti kondisi jasmani, rohani, dan usia.
-"/>
+                            android:text="Pramuka adalah nama organisasi kepanduan yang bertugas menyelenggarakan pendidikan di luar sekolah bagi anak-anak dan pemuda bangsa agar mereka memiliki ketangguhan, keberanian, memiliki kepribadian baik dan aktif dalam pembangunan di masyarakat.
+
+Pramuka adalah singkatan dari Praja Muda Karana yang memiliki arti “Rakyat muda yang suka berkarya”. Di Indonesia gerakan ini diperkenalkan secara resmi pada 14 Agustus 1961 oleh Presiden Pertama Indonesia, Ir Soekarno.
+
+Kegiatan kepramukaan mengambil lokasi outdoor atau alam terbuka. Para peserta melakukan aktivitas yang sehat, menyenangkan, mendidik, dan terarah. Semua berdasarkan metode dan prinsip kepramukaan.
+
+Di dunia Pramuka, Anda akan menemukan beberapa kode kehormatan berdasarkan Anggaran Dasar Pramuka. Ini berisi satya atau janji serta darma atau ketentuan moral. Penggolongan kode kehormatan berlandaskan pada beberapa faktor, seperti kondisi jasmani, rohani, dan usia."/>
 
                     </LinearLayout>
 
@@ -190,7 +172,21 @@ Di dunia Pramuka, Anda akan menemukan beberapa kode kehormatan berdasarkan Angga
                             android:textColor="#000"
                             android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text=""/>
+                            android:text="Awal mula Pramuka dunia terkait dengan buku karangan Baden Powell yang berjudul Scouting for Boys. Beliau mencatat semua pengalaman dalam sebuah buku seputar dunia perkemahan.
+
+Pada permulaan, buku karya Baden laris di Inggris. Karena popularitas yang meningkat, bukunya juga dikenal dan laris di negara-negara lain! Alhasil, banyak organisasi Pramuka bermunculan.
+
+Adik Baden bahkan memiliki organisasi sendiri, khusus untuk para wanita. Organisasi ini bernama Girl Guides.
+
+Organisasi khusus untuk usia siaga muncul pertama kali pada tahun 1916, yang bernama CUB. Dua tahun setelahnya, ada Rover Scout yang merupakan organisasi Pramuka untuk usia remaja.
+
+Baden memiliki satu buah karya lagi yang menginspirasi dunia kepramukaan dunia. Buku ini berjudul Rovering to Success! Buku ini berkisah tentang perjalanan dan petualangan seorang pemuda.
+
+Jambore dunia pertama kali diadakan di London pada tahun 1920. Pesertanya sebanyak 800 orang dan ada setidaknya 34 negara yang ikut serta dalam acara ini.
+
+Pada acara jambore dunia tersebut, Baden Powell menjadi The Chief Scout of the World atau Bapak Pandu Sedunia. Pada tahun 1920 di kota yang sama, muncul Dewan Internasional yang memiliki anggota sembilan orang.
+
+Sebelumnya, kantor kesekretariatan Pramuka sedunia berada di London, namun pindah ke Ottawa di tahun 1958. Sepuluh tahun kemudian, kantor berpindah ke Swiss."/>
 
                     </LinearLayout>
 

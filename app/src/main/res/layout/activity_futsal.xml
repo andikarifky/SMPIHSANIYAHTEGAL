@@ -58,56 +58,121 @@
                         android:text="FUTSAL"/>
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:orientation="horizontal">
+                            android:orientation="vertical">
 
-                            <LinearLayout
+                            <ImageView
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:layout_height="200dp"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="12dp"
+                                android:layout_marginTop="80dp"
+                                android:src="@drawable/futsalihs"/>
 
-                                <ImageView
-                                    android:layout_width="300dp"
-                                    android:layout_height="200dp"
-                                    android:layout_marginTop="70dp"
-                                    android:src="@drawable/futsalihs"/>
-
-                            </LinearLayout>
-                            <RelativeLayout
-                                android:layout_width="10dp"
-                                android:layout_height="match_parent"/>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
-
-                            </LinearLayout>
-                            <RelativeLayout
-                                android:layout_width="7dp"
-                                android:layout_height="match_parent"/>
                         </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="21dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_marginLeft="119dp"
+                        android:layout_marginTop="20dp"
+                        android:text="PENGERTIAN"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="75dp"
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="14dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="21dp"
                             android:textColor="#000"
-                            android:text="Futsal adalah permainan bola yang dimainkan oleh dua tim, yang masing-masing beranggotakan lima orang. Tujuannya adalah memasukkan bola ke gawang lawan, dengan memanipulasi bola dengan kaki. Selain lima pemain utama, setiap regu juga diizinkan memiliki pemain cadangan."/>
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Futsal adalah permainan bola yang dimainkan oleh dua tim, yang masing-masing beranggotakan lima orang. Tujuannya adalah memasukkan bola ke gawang lawan, dengan memanipulasi bola dengan kaki. Selain lima pemain utama, setiap regu juga diizinkan memiliki pemain cadangan"/>
 
                     </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="21dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_marginLeft="119dp"
+                        android:layout_marginTop="20dp"
+                        android:text="SEJARAH"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="75dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="21dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Dikutip dari situs resmi FIFA, futsal pertama kali dimainkan di Montevideo, Uruguay pada tahun 1930, oleh Juan Carlos Ceriani. Permainan futsal ini diperkenalkan oleh Juan Carlos Ceriani berawal saat hujan mengguyur Montevideo. Hujan yang turun membuat Ceriani kesal, karena rencana yang ia susun jadi berantakan lantaran lapangan yang tergenang air. Lalu pada akhirna, Ceriani memindahkan latihan ke dalam ruangan. Awalnya futsal menggunakan aturan seperti sepak bola, termasuk dengan pemain yang berjumlah 11 orang tiap tim. Namun, karena lapangan yang sempit, Ceriani memutuskan untuk mengurangi jumlah pemain menjadi lima orang tiap tim. Alhasil, latihan di dalam ruangan itu sangat efektif dan atraktif, sehingga mampu menarik minat banyak masyarakat Montevideo."/>
+
+                    </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
             </GridLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
+
 </LinearLayout>

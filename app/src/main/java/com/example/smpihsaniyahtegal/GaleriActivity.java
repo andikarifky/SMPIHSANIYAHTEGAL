@@ -3,33 +3,15 @@ package com.example.smpihsaniyahtegal;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.ViewFlipper;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class GaleriActivity extends AppCompatActivity {
-    ViewFlipper viewFlipper;
-    Animation fadein, fadeout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_galeri);
-
-        viewFlipper = (ViewFlipper) findViewById(R.id.viewFlipper);
-
-        fadein = AnimationUtils.loadAnimation(this,R.anim.fade_in);
-        fadeout = AnimationUtils.loadAnimation(this,R.anim.fade_out);
-
-        viewFlipper.setInAnimation(fadein);
-        viewFlipper.setOutAnimation(fadeout);
-
-        viewFlipper.setAutoStart(true);
-        viewFlipper.setFlipInterval(5000);
-        viewFlipper.startFlipping();
-
     }
 
     public void albumpelantikanosis(View view) {
@@ -54,6 +36,11 @@ public class GaleriActivity extends AppCompatActivity {
 
     public void albumkegiatanvaksinisasi(View view) {
         Intent intent = new Intent(GaleriActivity.this, com.example.smpihsaniyahtegal.AlbumVaksinActivity.class);
+        startActivity(intent);
+    }
+
+    public void albumnative(View view) {
+        Intent intent = new Intent(GaleriActivity.this, com.example.smpihsaniyahtegal.albumnativeActivity.class);
         startActivity(intent);
     }
 }

@@ -58,55 +58,122 @@
                         android:text="PMR"/>
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:orientation="horizontal">
+                            android:orientation="vertical">
 
-                            <LinearLayout
+                            <ImageView
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
+                                android:layout_height="200dp"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="12dp"
+                                android:layout_marginTop="80dp"
+                                android:src="@drawable/pmr"/>
 
-                                <ImageView
-                                    android:layout_width="300dp"
-                                    android:layout_height="200dp"
-                                    android:layout_marginLeft="9dp"
-                                    android:layout_marginTop="70dp"
-                                    android:src="@drawable/pmr"/>
-
-                            </LinearLayout>
-                            <RelativeLayout
-                                android:layout_width="10dp"
-                                android:layout_height="match_parent"/>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:orientation="vertical">
-
-                            </LinearLayout>
-                            <RelativeLayout
-                                android:layout_width="7dp"
-                                android:layout_height="match_parent"/>
                         </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="21dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_marginLeft="119dp"
+                        android:layout_marginTop="20dp"
+                        android:text="PENGERTIAN"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="75dp"
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="24dp"
-                            android:layout_marginTop="12dp"
-                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="21dp"
                             android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
                             android:text="Palang Merah Remaja (disingkat PMR) adalah wadah pembinaan dan pengembangan anggota remaja PMI, yang selanjutnya disebut PMR.Terdapat di PMI kota atau kabupaten di seluruh Indonesia, dengan anggota lebih dari 5 juta orang, anggota PMR merupakan salah satu kekuatan PMI dalam melaksanakan kegiatan-kegiatan kemanusiaan dibidang kesehatan dan siaga bencana, mempromosikan prinsip-prinsip dasar gerakan palang merah dan bulan sabit merah internasional, serta mengembangkan kapasitas organisasi PMI."/>
 
                     </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="21dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_marginLeft="119dp"
+                        android:layout_marginTop="20dp"
+                        android:text="SEJARAH"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="75dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="21dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Terbentuknya Palang Merah Remaja dilatar belakangi oleh terjadinya Perang Dunia I (1914 – 1918) pada waktu itu Austria sedang mengalami peperangan. Karena Palang Merah Austria kekurangan tenaga untuk memberikan bantuan, akhirnya mengerahkan anak-anak sekolah supaya turut membantu sesuai dengan kemampuannya. Mereka diberikan tugas – tugas ringan seperti mengumpulkan pakaian-pakaian bekas dan majalah-majalah serta Koran bekas. Anak-anak tersebut terhimpun dalam suatu badan yang disebut Palang Merah Pemuda (PMP) kemudian menjadi Palang Merah Remaja (PMR).
+
+Pada tahun 1919 di dalam sidang Liga Perhimpunan Palang Merah Internasional diputuskan bahwa gerakan Palang Merah Remaja menjadi satu bagian dari perhimpunan Palang Merah dan Bulan Sabit Merah. Kemudian usaha tersebut diikuti oleh negara-negara lain. Dan pada tahun 1960, dari 145 Perhimpunan Palang Merah dan Bulan Sabit Merah sebagian besar sudah memiliki Palang Merah Remaja.
+
+Di Indonesia pada Kongres PMI ke-IV tepatnya bulan Januari 1950 di Jakarta, PMI membentuk Palang Merah Remaja yang dipimpin oleh Ny. Siti Dasimah dan Paramita Abdurrahman. Pada tanggal 1 Maret 1950 berdirilah Palang Merah Remaja secara resmi di Indonesia."/>
+
+                    </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
             </GridLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>

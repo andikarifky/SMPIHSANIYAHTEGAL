@@ -46,21 +46,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void google(View view) {
-        goToUrl("https://smpihsaniyahkotategal.sch.id/");
-    }
-    public void facebook(View view) {
-        goToUrl("https://www.facebook.com/SMPIHSANIYAHTEGAL/");
-    }
-    public void instagram(View view) {
-        goToUrl("https://www.instagram.com/smpihsaniyah/");
-    }
-    public void youtube(View view) { goToUrl("https://www.youtube.com/channel/UC3Vui9Wn7t9f-ZfOE_kP7yA");}
-
-    private void goToUrl (String url) {
-        Uri uriUrl = Uri.parse(url);
-        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
-        startActivity(launchBrowser);
+    public void sosmed(View view) {
+        Intent intent = new Intent(MainActivity.this, com.example.smpihsaniyahtegal.SosmedActivity.class);
+        startActivity(intent);
     }
 }
 

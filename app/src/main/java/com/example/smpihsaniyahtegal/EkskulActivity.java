@@ -12,11 +12,8 @@ import com.smarteist.autoimageslider.SliderView;
 
 public class EkskulActivity extends AppCompatActivity {
     SliderView sliderView;
-    int[] images = {R.drawable.headerihs,
-            R.drawable.headergaleri1,
-            R.drawable.headerihs2,
-            R.drawable.poster1,
-            R.drawable.poster2};
+    int[] images = {R.drawable.mainhasbk,
+            R.drawable.headergaleri1,};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +57,41 @@ public class EkskulActivity extends AppCompatActivity {
 
     public void basket(View view) {
         Intent intent = new Intent(EkskulActivity.this, com.example.smpihsaniyahtegal.BasketActivity.class);
+        startActivity(intent);
+    }
+
+    public void musik(View view) {
+        Intent intent = new Intent(EkskulActivity.this, com.example.smpihsaniyahtegal.MusikActivity.class);
+        startActivity(intent);
+    }
+
+    public void literasi(View view) {
+        Intent intent = new Intent(EkskulActivity.this, com.example.smpihsaniyahtegal.literasiActivity.class);
+        startActivity(intent);
+    }
+
+    public void olimpiade(View view) {
+        Intent intent = new Intent(EkskulActivity.this, com.example.smpihsaniyahtegal.OlimpiadeActivity.class);
+        startActivity(intent);
+    }
+
+    public void kir(View view) {
+        Intent intent = new Intent(EkskulActivity.this, com.example.smpihsaniyahtegal.kirActivity.class);
+        startActivity(intent);
+    }
+
+    public void pks(View view) {
+        Intent intent = new Intent(EkskulActivity.this, com.example.smpihsaniyahtegal.pksActivity.class);
+        startActivity(intent);
+    }
+
+    public void silat(View view) {
+        Intent intent = new Intent(EkskulActivity.this, com.example.smpihsaniyahtegal.silatActivity.class);
+        startActivity(intent);
+    }
+
+    public void Tilawah(View view) {
+        Intent intent = new Intent(EkskulActivity.this, com.example.smpihsaniyahtegal.tilawahActivity.class);
         startActivity(intent);
     }
 }

@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.smpihsaniyahtegal">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +13,48 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPIHSANIYAHTEGAL">
+        <activity
+            android:name=".SosmedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExperimentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".albumnativeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YoutubeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InstagramActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FacebookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoogleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OlimpiadeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".silatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".literasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tilawahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kirActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MusikActivity"
+            android:exported="false" />
         <activity
             android:name=".Buku9Activity"
             android:exported="false" />
@@ -82,4 +128,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

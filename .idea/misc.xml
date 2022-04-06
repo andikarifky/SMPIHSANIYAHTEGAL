@@ -3,28 +3,43 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_album_hut_pgri.xml" value="0.25" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_album_hut_pgri.xml" value="0.2" />
         <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_album_kemah_budaya.xml" value="0.2" />
         <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_album_osis.xml" value="0.2" />
         <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_album_perpisahan.xml" value="0.18" />
         <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_album_vaksin.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_basket.xml" value="0.2" />
-        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_buku7.xml" value="0.1" />
-        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_buku8.xml" value="0.2" />
-        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_buku9.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_albumnative.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_basket.xml" value="0.25" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_buku7.xml" value="0.22" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_buku8.xml" value="0.18" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_buku9.xml" value="0.18" />
         <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_ekskul.xml" value="0.13518518518518519" />
-        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_fasilitas.xml" value="0.2" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_exp.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_experiment.xml" value="0.2" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_facebook.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_fasilitas.xml" value="0.18" />
         <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_futsal.xml" value="0.22" />
-        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_galeri.xml" value="0.2" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_galeri.xml" value="0.16" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_google.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_guru.xml" value="0.22" />
-        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_karate.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_instagram.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_karate.xml" value="0.25" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_kir.xml" value="0.25" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_literasi.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_musik.xml" value="0.2" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_olimpiade.xml" value="0.25" />
         <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_perpus.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_pks.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_pmr.xml" value="0.22" />
-        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_pramuka.xml" value="0.2" />
-        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_profil.xml" value="0.22" />
-        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_splash_screen.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_volly.xml" value="0.24619640387275243" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_pramuka.xml" value="0.33" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_profil.xml" value="0.18" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_silat.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_sosmed.xml" value="0.22" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_tilawah.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_volly.xml" value="0.22" />
+        <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/activity_youtube.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/layout/slider_item.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/lp18/AndroidStudioProjects/SMPIHSANIYAHTEGAL/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2074074074074074" />
       </map>
