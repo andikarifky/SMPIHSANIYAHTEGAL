@@ -73,7 +73,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginBottom="12dp"
                                 android:layout_marginTop="80dp"
-                                android:src="@drawable/futsalihs"/>
+                                android:src="@drawable/futsal"/>
 
                         </LinearLayout>
 

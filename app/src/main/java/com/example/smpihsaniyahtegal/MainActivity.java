@@ -36,10 +36,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void perpus(View view) {
-        Intent intent = new Intent(MainActivity.this, com.example.smpihsaniyahtegal.PerpusActivity.class);
-        startActivity(intent);
-    }
+
 
     public void galeri(View view) {
         Intent intent = new Intent(MainActivity.this, com.example.smpihsaniyahtegal.GaleriActivity.class);
@@ -48,6 +45,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void sosmed(View view) {
         Intent intent = new Intent(MainActivity.this, com.example.smpihsaniyahtegal.SosmedActivity.class);
+        startActivity(intent);
+    }
+
+    public void perpus(View view) {
+        Intent intent = new Intent(MainActivity.this, com.example.smpihsaniyahtegal.PerpusActivity.class);
+        startActivity(intent);
+    }
+
+    public void eksperiment(View view) {
+        Intent intent = new Intent(MainActivity.this, com.example.smpihsaniyahtegal.ExperimentActivity.class);
         startActivity(intent);
     }
 }

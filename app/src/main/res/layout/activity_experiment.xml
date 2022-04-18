@@ -8,9 +8,10 @@
     android:background="@drawable/bag2"
     tools:context=".MainActivity">
 
-    <TextView
+    <com.github.barteksc.pdfviewer.PDFView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="trdfghj"/>
+        android:id="@+id/pdfView"/>
+
 
 </LinearLayout>
