@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.smpihsaniyahtegal">
+    package="com.profil.smpihsaniyahtegal">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -14,112 +14,112 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPIHSANIYAHTEGAL">
         <activity
-            android:name=".SosmedActivity"
+            android:name="com.profil.smpihsaniyahtegal.SosmedActivity"
             android:exported="false" />
         <activity
-            android:name=".ExperimentActivity"
+            android:name="com.profil.smpihsaniyahtegal.ExperimentActivity"
             android:exported="false" />
         <activity
-            android:name=".albumnativeActivity"
+            android:name="com.profil.smpihsaniyahtegal.albumnativeActivity"
             android:exported="false" />
         <activity
-            android:name=".YoutubeActivity"
+            android:name="com.profil.smpihsaniyahtegal.YoutubeActivity"
             android:exported="false" />
         <activity
-            android:name=".InstagramActivity"
+            android:name="com.profil.smpihsaniyahtegal.InstagramActivity"
             android:exported="false" />
         <activity
-            android:name=".FacebookActivity"
+            android:name="com.profil.smpihsaniyahtegal.FacebookActivity"
             android:exported="false" />
         <activity
-            android:name=".GoogleActivity"
+            android:name="com.profil.smpihsaniyahtegal.GoogleActivity"
             android:exported="false" />
         <activity
-            android:name=".OlimpiadeActivity"
+            android:name="com.profil.smpihsaniyahtegal.OlimpiadeActivity"
             android:exported="false" />
         <activity
-            android:name=".silatActivity"
+            android:name="com.profil.smpihsaniyahtegal.silatActivity"
             android:exported="false" />
         <activity
-            android:name=".literasiActivity"
+            android:name="com.profil.smpihsaniyahtegal.literasiActivity"
             android:exported="false" />
         <activity
-            android:name=".tilawahActivity"
+            android:name="com.profil.smpihsaniyahtegal.tilawahActivity"
             android:exported="false" />
         <activity
-            android:name=".kirActivity"
+            android:name="com.profil.smpihsaniyahtegal.kirActivity"
             android:exported="false" />
         <activity
-            android:name=".pksActivity"
+            android:name="com.profil.smpihsaniyahtegal.pksActivity"
             android:exported="false" />
         <activity
-            android:name=".MusikActivity"
+            android:name="com.profil.smpihsaniyahtegal.MusikActivity"
             android:exported="false" />
         <activity
-            android:name=".Buku9Activity"
+            android:name="com.profil.smpihsaniyahtegal.Buku9Activity"
             android:exported="false" />
         <activity
-            android:name=".Buku8Activity"
+            android:name="com.profil.smpihsaniyahtegal.Buku8Activity"
             android:exported="false" />
         <activity
-            android:name=".Buku7Activity"
+            android:name="com.profil.smpihsaniyahtegal.Buku7Activity"
             android:exported="false" />
         <activity
-            android:name=".BasketActivity"
+            android:name="com.profil.smpihsaniyahtegal.BasketActivity"
             android:exported="false" />
         <activity
-            android:name=".VollyActivity"
+            android:name="com.profil.smpihsaniyahtegal.VollyActivity"
             android:exported="false" />
         <activity
-            android:name=".PmrActivity"
+            android:name="com.profil.smpihsaniyahtegal.PmrActivity"
             android:exported="false" />
         <activity
-            android:name=".KarateActivity"
+            android:name="com.profil.smpihsaniyahtegal.KarateActivity"
             android:exported="false" />
         <activity
-            android:name=".FutsalActivity"
+            android:name="com.profil.smpihsaniyahtegal.FutsalActivity"
             android:exported="false" />
         <activity
-            android:name=".PramukaActivity"
+            android:name="com.profil.smpihsaniyahtegal.PramukaActivity"
             android:exported="false" />
         <activity
-            android:name=".AlbumVaksinActivity"
+            android:name="com.profil.smpihsaniyahtegal.AlbumVaksinActivity"
             android:exported="false" />
         <activity
-            android:name=".AlbumHutPgriActivity"
+            android:name="com.profil.smpihsaniyahtegal.AlbumHutPgriActivity"
             android:exported="false" />
         <activity
-            android:name=".AlbumKemahBudayaActivity"
+            android:name="com.profil.smpihsaniyahtegal.AlbumKemahBudayaActivity"
             android:exported="false" />
         <activity
-            android:name=".AlbumPerpisahanActivity"
+            android:name="com.profil.smpihsaniyahtegal.AlbumPerpisahanActivity"
             android:exported="false" />
         <activity
-            android:name=".AlbumOsisActivity"
+            android:name="com.profil.smpihsaniyahtegal.AlbumOsisActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.profil.smpihsaniyahtegal.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".EkskulActivity"
+            android:name="com.profil.smpihsaniyahtegal.EkskulActivity"
             android:exported="false" />
         <activity
-            android:name=".ProfilActivity"
+            android:name="com.profil.smpihsaniyahtegal.ProfilActivity"
             android:exported="false" />
         <activity
-            android:name=".guruActivity"
+            android:name="com.profil.smpihsaniyahtegal.guruActivity"
             android:exported="false" />
         <activity
-            android:name=".GaleriActivity"
+            android:name="com.profil.smpihsaniyahtegal.GaleriActivity"
             android:exported="false" />
         <activity
-            android:name=".PerpusActivity"
+            android:name="com.profil.smpihsaniyahtegal.PerpusActivity"
             android:exported="false" />
         <activity
-            android:name=".FasilitasActivity"
+            android:name="com.profil.smpihsaniyahtegal.FasilitasActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name="com.profil.smpihsaniyahtegal.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

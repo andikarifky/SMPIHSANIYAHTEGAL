@@ -224,8 +224,6 @@
                     android:text="Social Media"/>
 
             </LinearLayout>
-
-
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
